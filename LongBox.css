@@ -1,0 +1,49 @@
+.long-box-wrapper {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px; /* Add space at the bottom */
+  }
+  
+  /* Rest of your styles */
+  
+.long-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust margin as needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .long-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .all-groups-title {
+    color: red;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .long-box-body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-engine h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .search-engine input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  

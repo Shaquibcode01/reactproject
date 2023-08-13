@@ -1,0 +1,39 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0; /* Remove padding-top */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh;
+  padding-top: 90px; /* Adjust this value based on your header height */
+}
+
+.content {
+  display: flex; /* Add this */
+  align-items: flex-start; /* Add this */
+  justify-content: space-between; /* Add this */
+  max-width: 1200px; /* You can adjust this value as needed */
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horizontal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+/* Rest of your styles */

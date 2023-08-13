@@ -1,0 +1,54 @@
+/* Navigation.css */
+.navigation {
+    position: fixed;
+    background-color: white;
+    padding: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+    left: 0; /* Add this to align to the left */
+    top: 10; /* Add this to align to the top */
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 0; /* Remove the default margin */
+  }
+  
+  .nav-list li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: left;
+    font-size: 15px;
+  }
+  
+  .nav-list li button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .nav-list li button:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
+  .nav-list li.category-title {
+    margin-top: 30px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .nav-list li svg {
+    margin-right: 30px;
+  }
+  
